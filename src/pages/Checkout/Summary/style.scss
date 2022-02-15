@@ -1,0 +1,157 @@
+.order-summary {
+  margin-left: 32px;
+  width: 468px;
+  height: 800px;
+  padding: 32px 16px;
+  background: #ffffff;
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  .cart-popup {
+    background: unset;
+    box-shadow: unset;
+    padding: unset;
+    margin-top: 40px;
+    .popup-middle {
+      width: 100%;
+      .popup-left {
+        width: 30%;
+      }
+      .popup-right {
+        .price {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+.price-info-right {
+  input[type="number"] {
+    margin-left: 20px;
+  }
+}
+
+.summary-total-price {
+  margin-top: 40px;
+  .summary-price-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .summary-title {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+
+      /* C1/A */
+
+      color: #151515;
+    }
+    .summary-price {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+      text-align: right;
+
+      /* C1/A */
+
+      color: #151515;
+    }
+  }
+}
+
+.MuiFormControl-root.MuiTextField-root.summary-discount-input {
+  width: 100%;
+}
+input#outlined-discount-input {
+  width: 100%;
+}
+.summary-discount {
+  display: flex;
+  justify-content: space-between;
+  width: 436px;
+  height: 50px;
+  background: #f9f9f9;
+
+  /* C1/D */
+
+  border: 1px solid #d1d1d1;
+  box-sizing: border-box;
+  border-radius: 12px;
+  // padding: 10px;
+  form {
+    width: 100%;
+    a {
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 23px;
+
+        /* C1/A */
+
+        color: #151515;
+      }
+    }
+  }
+}
+input.promo-code {
+  width: 67%;
+  background-color: transparent;
+}
+.apply-code {
+  display: flex;
+  justify-content: space-between;
+}
+
+.total-order {
+  margin-top: 43px;
+  display: flex;
+  justify-content: space-between;
+  &-left {
+    h4 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+
+      /* C1/A */
+
+      color: #151515;
+    }
+    p {
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+
+      /* C2/A */
+
+      color: #6a983c;
+    }
+  }
+  &-right {
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 26px;
+      line-height: 43px;
+
+      /* C2/A */
+
+      color: #6a983c;
+    }
+  }
+}
+.apply-code {
+  padding: 10px;
+}

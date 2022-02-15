@@ -1,0 +1,36 @@
+.menu {
+  background-color: #f9f9f9;
+  .menu__item {
+    display: flex;
+    align-items: center;
+    margin-left: 45px;
+
+    img {
+      filter: invert(56%) sepia(13%) saturate(1762%) hue-rotate(47deg)
+        brightness(93%) contrast(89%);
+      width: 20px;
+    }
+    a {
+      span {
+        color: #151515;
+        font-family: "Poppins", sans-serif;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 24.6px;
+      }
+    }
+    &-wrap {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      align-items: center;
+
+      padding-top: 16px;
+      padding-bottom: 16px;
+      padding-left: 45px;
+      width: 100%;
+      margin-left: -45px;
+      margin-top: 28px;
+    }
+  }
+}

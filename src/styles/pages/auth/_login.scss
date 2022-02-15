@@ -1,0 +1,36 @@
+.login-form {
+    .login {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 52px;
+  
+      /* C1/A */
+  
+      color: #151515;
+      text-align: center;
+      display: block;
+    }
+    .register-text {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      h5 {
+        display: flex;
+        p {
+          margin-left: 5px;
+        }
+      }
+    }
+  }
+  
+  .btn-wrap {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    .btn-login {
+      margin-left: 20px;
+    }
+  }
+  

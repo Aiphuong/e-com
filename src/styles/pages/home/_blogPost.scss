@@ -1,0 +1,116 @@
+.read-blog {
+    margin-top: 142px;
+    &-top {
+      display: flex;
+      justify-content: space-between;
+    }
+    &-bottom {
+      display: flex;
+      margin-bottom: 128px;
+    }
+  }
+  .blog-left {
+    .text-small {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: absolute;
+      top: 24px;
+      left: 24px;
+    }
+  }
+  .blog-content {
+    width: 469px;
+    height: 206px;
+    background: linear-gradient(0deg, #000000 0%, rgba(0, 0, 0, 0) 100%);
+    border-radius: 12px;
+    padding-top: 76px;
+    padding-left: 24px;
+    .heading {
+      max-width: 380px;
+      font-size: 22px !important;
+      color: #ffff;
+      margin-bottom: 8px;
+    }
+  }
+  .blog-thumbnail {
+    position: relative;
+  }
+  
+  .blog-info {
+    display: flex;
+    align-items: center;
+    &.--middle {
+      margin-top: 16px;
+      .name {
+        color: #151515;
+        margin-left: unset;
+      }
+      .post-create-at {
+        color: #151515;
+      }
+    }
+  
+    .name {
+      margin-left: 8px;
+      margin-right: 16px;
+      color: #ffff;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+    }
+    .post-create-at {
+      color: #ffff;
+      font-family: Open Sans;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+  
+  .blog-middle {
+    margin-left: 31.5px;
+    display: flex;
+    justify-content: baseline;
+    &-right {
+      margin-left: 10px;
+      .blog-heading {
+        .heading {
+          font-size: 15px;
+          width: 225px;
+          height: 46px;
+        }
+      }
+    }
+  }
+  .middle-content {
+    .text-small {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  
+  .blog__item-wrap {
+    .blog__item {
+      margin-bottom: 58px;
+    }
+  }
+
+  .blog-right-item {
+      width: 96px;
+      height: 96px;
+    
+      img {
+          border-radius: 12px;
+          height: 100%;
+      }
+  }
+  .blog-right-item:not(:first-child) {
+      margin-top: 36px;
+  }
+
+  

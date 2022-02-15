@@ -1,0 +1,77 @@
+.home__item-wrap {
+  margin-top: 15px;
+  .home__item {
+    &.--top {
+      margin-bottom: 24.5px;
+      display: flex;
+    }
+    &.--main {
+      h3.title-cate {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 600;
+        font-size: 32px;
+        line-height: 52px;
+        color: #151515;
+      }
+    }
+  }
+  .navigation {
+    font-family: "Open Sans";
+    font-style: normal;
+    font-weight: normal;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    color: #a9a9a9;
+    margin-right: 8px;
+  }
+  .breadcrumb {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #151515;
+    margin-left: 8px;
+  }
+  span {
+    color: #d1d1d1;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+.best-selling {
+  &.--from {
+    padding-bottom: 75px;
+    border-bottom: 1px solid #f9f9f9;
+  }
+}
+
+.best-selling {
+  margin-top: 128px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  .item__left {
+    width: 26%;
+  }
+}
+.headline-top {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  .btn-flex {
+    position: absolute;
+    top: 11px;
+    right: 0;
+  }
+}
+
+@import "./leftMenu";
+@import "./customerCard";
+@import "./blogPost";
+@import "./headline";

@@ -1,0 +1,108 @@
+.list-cate {
+  p {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #6a983c;
+    margin: 12px 0;
+  }
+}
+.more-cates {
+  display: flex;
+  align-items: center;
+  background-color: #f5f5f5;
+  width: 179px;
+  height: 48px;
+  border-radius: 12px;
+  padding: 6px 16px;
+  margin-top: 40px;
+  a {
+    display: block;
+    margin-right: 12px;
+  }
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #151515;
+  }
+  img {
+    width: 9px;
+  }
+}
+.category-menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  margin-top: 64px;
+  width: 100%;
+  .item__left {
+    // margin-right: 156px;
+    width: 26%;
+  }
+  .item__right {
+    display: flex;
+    .banner-item {
+      margin-right: 35px;
+      width: 420px;
+      height: 280px;
+      border-radius: 12px;
+      background-color: #f4f8ec;
+      .banner__content {
+        margin-left: 35px;
+        margin-top: 48px;
+        margin-bottom: 95px;
+      }
+      .banner__button {
+        margin-left: 35px;
+        width: 163px;
+        height: 47px;
+        display: flex;
+        align-items: center;
+
+        border-radius: 12px;
+        border: 2px solid #6a983c;
+
+        a {
+          display: block;
+          margin-right: 12.53px;
+          margin-left: 15px;
+          p {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 15px;
+            line-height: 22px;
+
+            color: #151515;
+          }
+        }
+        img {
+          filter: invert(56%) sepia(13%) saturate(1762%) hue-rotate(47deg)
+            brightness(93%) contrast(89%);
+        }
+      }
+    }
+    // .banner-item :not(:first-child){
+    //     margin-left: 35px;
+    // }
+    h4 {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 15px;
+      line-height: 20px;
+
+      color: #6a983c;
+    }
+    .heading {
+      font-size: 22px;
+      margin-top: 8px;
+    }
+  }
+}

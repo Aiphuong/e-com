@@ -1,0 +1,144 @@
+.header__item {
+  display: flex;
+  align-items: center;
+  &.--left {
+    margin-left: -35px;
+    .text {
+      font-family: "Open Sans";
+      font-style: normal;
+      font-weight: normal;
+      font-size: 12px;
+      line-height: 16px;
+      color: #151515;
+      margin-left: 35px;
+
+      &.--green-cl {
+        color: #6a983c;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.34px;
+      }
+    }
+  }
+  &.--right {
+    margin-left: -40px;
+    a {
+      display: block;
+      margin-left: 40px;
+      p {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16.34px;
+      }
+    }
+  }
+
+  &-wrap {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #15151523;
+  }
+}
+
+.search-input {
+  border-radius: 12px;
+  border: 1px solid #d1d1d1;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  height: 42px;
+  background-color: #f9f9f9;
+  width: 500px;
+  position: relative;
+}
+.search-input input {
+  outline: none;
+  border: none;
+  line-height: normal;
+  width: 262px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  padding-left: 32px;
+  background-color: #f9f9f9;
+}
+.search-label {
+  span {
+    position: relative;
+    &:after {
+      content: "";
+      position: absolute;
+      width: 20px;
+      height: 0px;
+      left: 139px;
+      top: 11px;
+      border: 1px solid #d1d1d1;
+      transform: rotate(90deg);
+    }
+  }
+}
+.icon {
+  &.--search {
+    position: absolute;
+
+    right: 18px;
+  }
+}
+input[type="text"] {
+  color: #a9a9a9;
+  font-weight: 400;
+  font-family: "Open sans";
+  font-style: normal;
+}
+
+img.icon {
+  &.--down {
+    width: 60%;
+    filter: invert(56%) sepia(13%) saturate(1762%) hue-rotate(47deg)
+      brightness(93%) contrast(89%);
+  }
+}
+.header__item {
+  &-wrap {
+    &.--bottom {
+      border-bottom: 0;
+    }
+  }
+  &.--func {
+    img {
+      width: 28px;
+    }
+    .cart {
+      position: relative;
+      margin-left: 40px;
+      span {
+        display: block;
+        position: absolute;
+        width: 8px;
+        height: 18px;
+        right: 18px;
+        top: 15px;
+        color: #ffffff;
+      }
+
+      &::before {
+        content: "";
+        color: #ffffff;
+        position: absolute;
+        height: 16px;
+        width: 16px;
+        right: 13px;
+        top: 15px;
+        background-color: #e5704b;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 12px;
+      }
+    }
+  }
+}

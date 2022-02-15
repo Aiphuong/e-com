@@ -1,0 +1,9 @@
+.detail-top {
+  margin-top: 15.5px;
+  a {
+    margin-left: 8px;
+    &:first-child {
+      margin-left: unset;
+    }
+  }
+}

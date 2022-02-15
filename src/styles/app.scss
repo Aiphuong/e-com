@@ -1,0 +1,32 @@
+@import "swiper/swiper.min.css";
+@import "swiper/components/pagination/pagination.min.css";
+@import url("https://fonts.googleapis.com/css?family=Lobster");
+
+//Core
+@import "./core/libs";
+@import "./core/reset";
+@import "./core/variable";
+@import "./core/mixins";
+@import "./core/fonts.scss";
+
+//Modules
+@import "./modules/badge";
+@import "./modules/breadcrumb";
+@import "./modules/snackbar";
+
+
+//layout
+@import "./layout/layout";
+@import "./layout/header";
+@import "./layout/menu";
+@import "./layout/footer";
+
+//components
+@import "./components/model";
+
+//pages
+@import "./pages/home/home";
+@import './pages/productList/index.scss';
+
+
+

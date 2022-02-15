@@ -1,0 +1,25 @@
+.product-button {
+  align-items: center;
+}
+.btn-buy-disable {
+  cursor: default;
+  pointer-events: none;
+  opacity: 0.5;
+
+  width: 90px;
+  height: 36px;
+  background: #6a983c;
+  border: 2px solid #46760a;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+  }
+}

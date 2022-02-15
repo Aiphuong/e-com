@@ -1,0 +1,38 @@
+.method-logo {
+  display: flex;
+}
+
+.MuiAccordionSummary-expandIcon.Mui-expanded {
+  transform: unset !important;
+}
+.method-payment-logo {
+  margin-left: 12px;
+}
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  margin-bottom: 16px;
+}
+.MuiFormGroup-root {
+  margin-top: 32px !important;
+}
+.MuiFormControl-root.MuiTextField-root.card-number {
+  width: 602px;
+}
+
+.MuiAccordionDetails-root {
+  display: block !important;
+}
+
+.credit-input-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  align-items: center;
+}
+
+.MuiFormControl-root.MuiTextField-root.card-holder {
+  width: 300px;
+}
+
+.MuiPaper-root.MuiAccordion-root.MuiAccordion-rounded.MuiPaper-elevation1.MuiPaper-rounded {
+  width: 635px;
+}

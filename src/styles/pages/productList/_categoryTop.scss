@@ -1,0 +1,100 @@
+.category-top {
+    //   display: flex;
+    //   justify-content: space-between;
+    position: relative;
+    width: 100%;
+    .item__top {
+      display: flex;
+      justify-content: flex-start;
+      margin-top: 15px;
+      margin-bottom: 8px;
+      .navigation {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #a9a9a9;
+        margin-right: 8px;
+      }
+      .breadcrumb {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #151515;
+        margin-left: 8px;
+      }
+      span {
+        font-family: Open Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 16px;
+        color: #d1d1d1;
+      }
+    }
+  
+    .item__bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+      .heading {
+        &.--category {
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 32px;
+          line-height: 52px;
+        }
+      }
+      .item__bottom-right {
+        width: 26%;
+        .tab__option {
+          &-list {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+          }
+          &-item {
+            display: flex;
+            justify-content: flex-start;
+            width: calc(100% / 3);
+            p {
+              font-family: Open Sans;
+              font-style: normal;
+              font-weight: normal;
+              font-size: 12px;
+              line-height: 16px;
+              color: #151515;
+              opacity: 0.5;
+              margin-left: 12px;
+              &.active {
+                opacity: 1;
+              }
+            }
+            .text-small {
+              width: 32px;
+              height: 18px;
+              background: #eb5757;
+              border-radius: 12px;
+              span {
+                color: #ffff;
+              }
+              // p {
+              //   color: #ffff;
+              // }
+            }
+          }
+        }
+      }
+    }
+  }
+  .tab__option-item {
+    .text-small {
+      right: 0 !important;
+    }
+  }
+  

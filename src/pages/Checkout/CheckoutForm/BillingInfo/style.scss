@@ -1,0 +1,95 @@
+.billing-info-form {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  .billing-form-item {
+    margin-right: 20px;
+    margin-bottom: 10px;
+    &::nth-last-child() {
+      display: block;
+    }
+  }
+}
+div#demo-simple-select {
+  // height: 40px;
+}
+
+span.MuiTypography-root.error-message.MuiTypography-colorTextSecondary {
+  color: red;
+  font-family: "Poppins";
+  font-style: italic;
+}
+
+// span.MuiTypography-root.error-message.MuiTypography-colorTextSecondary {
+//   display: none;
+// }
+
+.order {
+  width: 207px;
+  height: 56px;
+  background: #3c7798;
+  border-radius: 100px;
+  padding: 12px 48px;
+  border: 0;
+  display: block;
+  p {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+
+    /* C1/J */
+
+    color: #ffffff;
+  }
+}
+
+.checkout-heading {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 36px;
+
+  /* C1/A */
+
+  color: #151515;
+}
+.checkout-desc {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}
+.step {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: right;
+
+  /* C1/C */
+
+  color: #a9a9a9;
+}
+
+.MuiFormControlLabel-labelPlacementBottom {
+  // margin-left: 16px;
+  flex-direction: row !important;
+  margin-left: unset !important;
+}
+
+.desc-step {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.step {
+  text-align: unset;
+}

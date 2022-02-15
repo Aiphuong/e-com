@@ -1,0 +1,57 @@
+.method-payment {
+  width: 635px;
+  height: 48px;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+  border: 1px solid #d1d1d1;
+  margin-bottom: 16px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  //   margin-top: 32px;
+  .additional-price {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    p {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 20px;
+
+      /* C2/A */
+
+      color: #3c7798;
+      margin-right: 12px;
+    }
+    a {
+      width: 140px;
+      height: 18px;
+      background: #f5f5f5;
+      border-radius: 12px;
+      display: block;
+      p {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 20px;
+
+        /* C1/A */
+
+        color: #151515;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+  }
+  .shipping-name {
+    width: 93px;
+  }
+}
+fieldset.MuiFormControl-root.billing-method-form {
+  margin-top: 32px;
+  margin-bottom: 39px;
+}
